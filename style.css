@@ -1,0 +1,206 @@
+html,body{
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #7affdc;
+}
+*{
+    position: absolute;
+}
+.head{
+    width: 450px;
+    height: 430px;
+    border-radius: 50%;
+    background: #00a2ff;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: inset -10px -10px 5px #036fad;
+}
+.face{
+    width: 370px;
+    height: 320px;
+    border-radius: 50%;
+    background: white;
+    transform: translate(-50%,-50%);
+    top: 250px;
+    left: 230px;
+}
+.eye-group{
+    width: 250px;
+    height: 100px;
+    top: 10px;
+    left: 0px;
+}
+#eye-1{
+    background: white;
+    height: 140px;
+    width: 110px;
+    border: 1px solid #9d9d9d;
+    border-radius: 50%;
+    top: 20px;
+    left: 112px;
+    box-shadow: inset -3px -10px 5px #9d9d9d;
+}
+#eye-2{
+    background: white;
+    height: 140px;
+    width: 110px;
+    border: 1px solid #9d9d9d;
+    border-radius: 50%;
+    top: 20px;
+    right: 112px;
+    box-shadow: inset -3px -10px 5px #9d9d9d;
+}
+.nose{
+    background: rgb(216, 49, 49);
+    height: 50px;
+    width: 50px;
+    border: 1px solid #9d9d9d;
+    border-radius: 50%;
+    top: 135px;
+    right: 200px;
+    box-shadow: inset -10px -10px 5px rgb(150, 25, 25);
+}
+#pupil-2{
+    background: black;
+    height: 70px;
+    width: 40px;
+    border: 1px solid #9d9d9d;
+    border-radius: 50%;
+    top: 30px;
+    right: 70px;
+    box-shadow: inset -3px -10px 5px #2a2a2a;
+}  
+#pupil-1{
+    background: black;
+    height: 70px;
+    width: 40px;
+    border: 1px solid #9d9d9d;
+    border-radius: 50%;
+    top: 30px;
+    left: 70px;
+    box-shadow: inset -3px -10px 5px #2a2a2a;
+}
+/*#eye-1::before{
+    content: "";
+    background: black;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    left: 90px;
+    transform: translate(-50%,-50%);
+    box-shadow: inset -3px -10px 5px #2a2a2a;
+}
+#eye-2::before{
+    content: "";
+    background: black;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    left: 20px;
+    transform: translate(-50%,-50%);
+    box-shadow: inset -3px -10px 5px #2a2a2a;
+}*/
+
+.mouth-line{
+    border-left: 1px;
+    border: solid black;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    height: 108px;
+    width: 100px;
+    top: 180px;
+    left: 223px;
+}
+.mouth{
+    height: 115px;
+    width: 100px;
+    top: 198px;
+    left: 130px;
+    background-color: #c13d3d; 
+    border-radius:100px 100px 90px 90px;
+    overflow: hidden;
+    border: 2px solid #c13d3d;
+    box-shadow: inset 15px 15px 15px #863535;
+}
+.tongue{
+    height: 90px;
+    width: 100px;
+    top: 25px;
+    background-color: #ff4e4e; 
+    border-radius:50%;
+    box-shadow: inset 15px 15px 15px #d13232;
+}
+.whisker-right-1{
+    width: 130px;
+    height: 2px;
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    top: 188px;
+    left: 28px;
+    transform: rotate(10deg);
+}
+.whisker-right-2{
+    width: 130px;
+    height: 100px;
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    top: 130px;
+    left: 20px;
+}
+.whisker-right-3{
+    width: 130px;
+    height: 100px;
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    top: 170px;
+    left: 15px;
+    transform: rotate(-10deg);
+}
+.whisker-left-1{
+    width: 130px;
+    height: 100px;
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    top: 90px;
+    right: 40px;
+    transform: rotate(-10deg);
+}
+.whisker-left-2{
+    width: 130px;
+    height: 100px;
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    top: 130px;
+    right: 20px;
+}
+.whisker-left-3{
+    width: 130px;
+    height: 100px;
+    border: 2px solid black;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    top: 170px;
+    right: 15px;
+    transform: rotate(10deg);
+}
